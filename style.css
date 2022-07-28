@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+/* HEADER */
+
+header {
+    padding-bottom: 5px;
+}
+
 header,
 footer {
     background-color: #1F2937;
@@ -22,4 +28,54 @@ footer {
 
 .headlink {
     list-style: none;
+    display: flex;
+    gap: 32px;
+
 }
+
+.hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.beach {
+    height: 265px;
+    width: 450px;
+}
+
+.headtop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 75px 157px
+}
+
+.headmainleft {
+    padding-bottom: 40px
+}
+
+.headmainright {
+    
+} 
+
+/* * {
+    border: 1px solid red;
+} */
