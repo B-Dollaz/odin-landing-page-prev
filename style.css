@@ -115,7 +115,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 150px 120px 100px 135px;
+    padding: 150px 275px 100px 250px;
 }
 
 .quotetxt {
@@ -132,4 +132,11 @@ footer {
     font-size: 25px;
     display: flex;
     justify-content: flex-end;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0px 35px 0px;
+    color: white;
+    font-size: 24px;
 }
