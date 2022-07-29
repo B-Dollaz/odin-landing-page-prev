@@ -140,3 +140,39 @@ footer {
     color: white;
     font-size: 24px;
 }
+
+.boxin {
+    background-color: #3882F6;
+    margin: 150px 125px;
+    border-radius: 10px;
+    padding: 55px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enddiv {
+    color: white;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.call {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.callp {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+}
