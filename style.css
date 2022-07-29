@@ -109,6 +109,27 @@ footer {
     color: grey;
     padding-bottom: 75px;
 }
- /* * {
-    border: 1px solid red;
-} */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 150px 120px 100px 135px;
+}
+
+.quotetxt {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    /* Weight for this font doesn't go below 400 */
+    font-weight: 300;
+    text-align: justify;
+}
+
+.quoteend {
+    font-weight: 900;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
